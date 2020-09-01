@@ -5,7 +5,7 @@ const puppeteer = require('puppeteer');
 const scrape = async (zipCode) => {
     const browser = await puppeteer.launch({
         headless: true,
-        executablePath:'C:/Users/jointohire/Desktop/Urban Gardening App/node_modules/puppeteer/.local-chromium/linux-599821/chrome-linux/chrome',
+        executablePath:'C://Users//jointohire//Desktop//Urban Gardening App//node_modules//puppeteer//.local-chromium//win64-(782078)//chrome-win//chrome.exe',
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
