@@ -5,7 +5,7 @@ const puppeteer = require('puppeteer');
 const scrape = async (zipCode) => {
     const browser = await puppeteer.launch({
         headless: true,
-        executablePath:'/home/sagar/workplace/scraping-demo/node_modules/puppeteer/.local-chromium/linux-599821/chrome-linux/chrome',
+     //   executablePath:'/home/sagar/workplace/scraping-demo/node_modules/puppeteer/.local-chromium/linux-599821/chrome-linux/chrome',
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
